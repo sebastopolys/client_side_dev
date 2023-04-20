@@ -52,7 +52,8 @@ class adminmenu{
 
         echo '<div class="wrapper">';        
         echo '<h1 class ="wp-heading-inline">'.self::$config::$plname.' ! </h1>';
-        echo '<h3 style="font-weight:300">'. self::$config::$pldesc.'</h3>';      
+        echo '<h3 style="font-weight:300">'. self::$config::$pldesc.'</h3>';     
+	          echo '<p>'. self::$config::$plvers.'</p>';  
         echo "</div>";
       
     }    
